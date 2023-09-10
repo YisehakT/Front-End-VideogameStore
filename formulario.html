@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header_logo"src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion-enlace" href="index.html">Tienda</a>
+        <a class="navegacion-enlace" href="nosotros.html">Nosotros</a>
+        <a class="navegacion-enlace navegacion-enlace--activo" href="formulario.html">Contáctanos</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Completa tus datos</h1>
+        <form action="#" method="post">
+        <div class="div__a">
+            <span class="span__animado">Nombre:</span>
+            <input class="campo__animado" type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="div__a">
+
+            <span class="span__animado">Apellidos:</span>
+            <input class="campo__animado" type="text" id="apellidos" name="apellidos" required>
+        </div>
+        <div class="div__a">
+            <span class="span__animado">Correo Electrónico:</span>
+            <input class="campo__animado" type="email" id="correo" name="correo" required>
+        </div>
+
+        <div class="div__a">
+            <span class="span__animado">Teléfono</span>
+            <input class="campo__animado" type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="div__a">
+            <span class="span__animado">Mensaje</span>
+            <textarea class="campo__animado" id="mensaje" name="mensaje" required>
+            </textarea>
+        </div>
+
+            <input class="formulario__submit2" type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <p class="footer_texto">Front End Store - Todos los derechos reservados 2023</p>
+    </footer>
+    
+</body>
+</html>
